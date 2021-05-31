@@ -1,0 +1,9 @@
+{
+  "type": "sqlite",
+  "host": "localhost",
+  "port": 5432,
+  "database": "datacat.db",
+  "entities": ["dist/**/**.entity.js"],
+  "synchronize": true,
+  "logging": ["error"]
+}
